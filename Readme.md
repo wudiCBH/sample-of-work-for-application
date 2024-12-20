@@ -14,7 +14,9 @@
 
 **Magnetic System Overview**
 
-![magnetic_system.png](./assests/magnetic_system.png)
+<div align="center">
+  <img src="./assests/magnetic_system.png" alt="magnetic_sytem" width="750">
+</div>
 
 - Design a microgripper actuated by the magnetic fields in 2D plannar capable of capturing tiny objects like cells and transportation.
 - Yolo for identification of the robot, the object, the obstacles.
@@ -36,11 +38,15 @@
 
 - Capturing dynamic target in simulation
 
-![dynamic_sim.gif](./assests/dynamic_sim.gif)
+<div align="center">
+  <img src="./assests/dynamic_sim.gif" alt="dynamic_sim" width="400">
+</div>
 
 - Capturing dynamic target in reality
 
-![dynamic_real.gif](./assests/dynamic_real.gif)
+<div align="center">
+  <img src="./assests/dynamic_real.gif" alt="dynamic_real" width="750">
+</div>
 
 **My Contribution**
 
@@ -70,11 +76,15 @@
 
 - Demonstrate our model in Matlab but failed in real tests.
 
-![trajectory_tracking.jpg](./assests/trajectory_tracking_matlab.png)
+<div align="center">
+  <img src="./assests/trajectory_tracking_matlab.png" alt="trajectory_tracking" width="750">
+</div>
 
 - PID controller for its heading successfully achieve trajectory tracking.
 
-![bio1.gif](./assests/bio1.gif)
+<div align="center">
+  <img src="./assests/bio1.gif" alt="bio1" width="750">
+</div>
 
 **My contribution**
 
@@ -105,15 +115,21 @@
 
 - First stage: Learn to stablize
 
-![FTC1.gif](./assests/FTC1.gif)
+<div align="center">
+  <img src="./assests/FTC1.gif" alt="FTC1" width="750">
+</div>
 
 - Second stage:Learn to control attitude
 
-![FTC2.gif](./assests/FTC2.gif)
+<div align="center">
+  <img src="./assests/FTC2.gif" alt="FTC2" width="750">
+</div>
 
 - Third stage:Learn to control position
 
-![FTC3.gif](./assests/FTC3.gif)
+<div align="center">
+  <img src="./assests/FTC3.gif" alt="FTC3" width="750">
+</div>
 
 **My contribution**
 
@@ -139,11 +155,15 @@
 
 - You could find the record and details in [Robotics Competition](https://asabe.org/Robotics). But they mistook the division,hh.
 
-![award_ASABE.jpg](./assests/award_ASABE.jpg)
+<div align="center">
+  <img src="./assests/award_ASABE.jpg" alt="award_ASABE" width="400">
+</div>
 
 - It is about a leaf-trimming robot.
 
-![ASABE.gif](ASABE.gif)
+<div align="center">
+  <img src="./assests/ASABE.gif" alt="ASABE" width="750">
+</div>
 
 **Key Features**
 
@@ -161,7 +181,9 @@
 
 - It is about a  strawberry-cutting robot.
 
-![ARC.gif](ARC.gif)
+<div align="center">
+  <img src="./assests/ARC.gif" alt="ARC" width="750">
+</div>
 
 **Key Features**
 
@@ -181,9 +203,11 @@ Before focusing on robotics, I spent a long time exploring my interest.
 
 - Capture, segmentation and anlysis of motion signals
 
-![7ced240cdd8756f71bc8e9070d8bcd0.png](7a84ddbe-caf7-4d63-ba3e-ec3ec629ce25.png)
+<div align="center">
+  <img src="./assests/respiration_rate_cows.png" alt="respiration_rate_cows" width="800">
+</div>
 
-- This project is a student research training programm, you could find details in [**https://doi.org/10.3390/agriculture14010040](https://doi.org/10.3390/agriculture14010040).**
+- This project is a student research training programm, you could find details in [https://doi.org/10.3390/agriculture14010040](https://doi.org/10.3390/agriculture14010040).
 - Eulerian Video Magnification for amplifying small motion signals, Horn-Schunck optimal method for respiration rate estimation.
 - I am responsible for recording video, assisting in implementation in Matlab.
 
