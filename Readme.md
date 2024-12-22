@@ -9,7 +9,7 @@
 ### **Capturing Dynamic Target with a Magnetic Soft Microgripper Via Transformer-based RL**
 ---
 
-> Please turn to  https://github.com/fanghaow/TRL-DVO for latest information, here are just some quick view and supplementary information.
+> Please refer to https://github.com/fanghaow/TRL-DVO for the latest information. The following provides a quick overview and supplementary details.
 > 
 
 **Magnetic System Overview**
@@ -18,17 +18,17 @@
   <img src="./assests/magnetic_system.png" alt="magnetic_sytem" width="750">
 </div>
 
-- Design a microgripper actuated by the magnetic fields in 2D plannar capable of capturing tiny objects like cells and transportation.
-- Yolo for identification of the robot, the object, the obstacles.
+- Design a microgripper actuated by the magnetic fields in 2D plannar capable of capturing and transporting tiny objects such as cells.
+- Yolo for identification of the robot, the object and obstacles.
 
-> If you are interested, you can refer to [DOI: 10.34133/cbsystems.0109](https://doi.org/10.34133/cbsystems.0109),  ****this is the previous work of our lab focusing on the system design.
+> If you are interested, you can refer to [DOI: 10.34133/cbsystems.0109](https://doi.org/10.34133/cbsystems.0109), this is the previous work of our lab focusing on the system design.
 > 
 
 **Navigation System**
 
-- **Transfomer-based RL:**We propose a novel network framework with several attention layers and CNN to process image information and virtual lidar information.
+- **Transfomer-based RL:** We propose a novel network framework with several attention layers and CNN to process image information and virtual LiDAR information.
 - **Deterministic VO and Curriculum Learning:** We include a simplified and deterministic VO as a guidance in training process. A curriculum learning is also included.
-- **Sim-to-Real:** In simulation it can achieve a success rate of nearly 90% but lower in reality due to system delay and unprecise model. We spent some time for system identification and low level control loop to reduce system delay.
+- **Sim-to-Real:** In simulation it can achieve a success rate of nearly 95% but lower in reality due to system delay and the imprecise model. We have dedicated time to system identification and refining low level control loop to reduce system delay.
 ****
 
 > The ideas are primarily inspired by https://github.com/TempleRAIL/drl_vo_nav and https://github.com/Mehooz/vision4leg.
@@ -50,7 +50,7 @@
 
 **My Contribution**
 
-- Responsible for independently designing and implementing Transformer-based RL in simulation, as well as fine-tuning the model for optimal performance.
+- Responsible for independently designing and implementing the network workframe in simulation, as well as tuning parameters for optimal performance.
 - Assist in solution of deterministic VO.
 - Assist in frabrication, real experiment and reducing system delay.
 - Parts of paper writing.
@@ -58,18 +58,18 @@
 **The Work Going On**
 
 - **Paper Writing:** we will submitted paper before 2025.1.15
-- **Ablation Experiment, Comparison and Real experiment**: We are testing the contribution of each component of our network framework while also comparing it with other RL and traditional methods for navigation. We are also testing its ability to capture different dynamic objects including Zebrafish, Mosquito egg and micro magnetic spheres.
+- **Ablation Experiment, Comparison and Real experiment:** We are evaluating the contribution of each component in our network framework and comparing its performance with other reinforcement learning (RL) and traditional navigation methods. Additionally, we are testing its ability to capture various dynamic objects, including zebrafish, mosquito eggs, and micro magnetic spheres.
 
-## Bio-inspired Magnetic Robot via model-based meta reinforcement learning
+## Bio-inspired Magnetic Robot via Model-based Meta Reinforcement Learning
 ---
 
 > Our goal is to design a soft magnetic robot capable of performing versatile tasks within different enviroments.
 > 
 
-**Key features**
+**Key Features**
 
 - Design a soft magnetic robot inspired by the locomotion mechanism of fish capable navigating in 3D space.
-- We model it as interactions between several linkages and demonstrate it in Matlab but it is highly unprecise in reality.
+- We model it as interactions between several linkages and demonstrate it in Matlab but it is highly imprecise in reality.
 - We are trying to trained a model via a modified version of https://github.com/danijar/dreamerv3.
 
 **Demonstrations**
@@ -86,7 +86,7 @@
   <img src="./assests/bio1.gif" alt="bio1" width="750">
 </div>
 
-**My contribution**
+**My Contribution**
 
 - Design and frabrication of the robot.
 - Assist in modeling.
@@ -96,22 +96,22 @@
 - Exploring ways to overcome sim-to-real gap and deploy model-based RL network in reality.
 - Combine meta learning for adaption in different liquid enviroments.
 
-## Fault-tolerant control for quadrotor via a fast reinforcement learning approach
+## Fault-tolerant Control for Quadrotor via a Fast Reinforcement Learning Approach
 ---
 
-> Its goal is to train an end-to-end uniform passive controller capable of overcaming any fault situations. This work is focusing on training an end-to-end fault tolerant controller under single rotor failure situation.
+> Its goal is to train an end-to-end, uniform passive controller capable of overcoming any fault situations. This work focuses on training an end-to-end fault-tolerant controller specifically for single-rotor failure scenarios.
 > 
 
-**Key features**
+**Key Features**
 
-- A completely end-to-end fault tolerant controller under single rotor failure
+- A completely end-to-end fault tolerant controller for single rotor failure
 - Based on https://github.com/rl-tools/rl-tools, a completely C++ libary which enable fast training.
 - A curriculum learning is included.
 
 > It is modified from https://github.com/arplaboratory/learning-to-fly. The simulator is completely the same.
 > 
 
-**Demonstrations of simulation**
+**Demonstrations of Simulation**
 
 - First stage: Learn to stablize
 
@@ -119,19 +119,19 @@
   <img src="./assests/FTC1.gif" alt="FTC1" width="750">
 </div>
 
-- Second stage:Learn to control attitude
+- Second stage: Learn to control attitude
 
 <div align="center">
   <img src="./assests/FTC2.gif" alt="FTC2" width="750">
 </div>
 
-- Third stage:Learn to control position
+- Third stage: Learn to control position
 
 <div align="center">
   <img src="./assests/FTC3.gif" alt="FTC3" width="750">
 </div>
 
-**My contribution**
+**My Contribution**
 
 - Implement RL in simulation and tune parameter.
 - Replicate the work “learning to fly in seconds” in simulation and reality.
@@ -139,13 +139,13 @@
 
 **The Work Going On**
 
-- Paper Writing: This work has been passed on to a Mphil student of the lab, the paper will be submitted as soon as possible after all the experiments have been done.
-- Ablation Experiment and Real Experiment
+- **Paper Writing:** This work has been passed on to a Mphil student of the lab, the paper will be submitted as soon as possible after all the experiments have been conducted.
+- **Ablation Experiment and Real Experiment**
 
 ## Project Experiences
 ---
 
-> I participated in some robot competitions which inspire my extensive interest on robotics. In majority, I am responsible for designing mechanisms.
+> I participated in some robot competitions which inspired my extensive interest on robotics. In most cases, I am responsible for designing mechanisms.
 > 
 
 ### 2024 ASABE Student Robotics Competition
@@ -179,7 +179,7 @@
 
 **Demonstrations**
 
-- It is about a  strawberry-cutting robot.
+- It is about a strawberry-cutting robot.
 
 <div align="center">
   <img src="./assests/ARC.gif" alt="ARC" width="750">
