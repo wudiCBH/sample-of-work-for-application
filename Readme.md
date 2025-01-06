@@ -48,6 +48,14 @@
   <img src="./assests/dynamic_real.gif" alt="dynamic_real" width="750">
 </div>
 
+**Key Ideas**
+
+- When faced with cluttered environments and dynamic objectives, many navigation methods show limited performance. In contrast, RL excels in tasks that are difficult to analyze or model.
+- The novel network framework, combining attention layers and CNNs, is designed to extract spatial and temporal features from multi-modal inputs, significantly enhancing navigation performance. 
+- DVO (Deterministic Velocity Obstacles) is an improved version of the Velocity Obstacles algorithm. The key improvement is replacing the sampling-based approach with an analytical method, which greatly enhances computational efficiency during the training process. It has been demonstrated that providing such guidance is particularly beneficial during the early stages of training. 
+- Curriculum learning plays a crucial role in training. Starting the agent with overly difficult tasks often results in poor performance, even if a policy is eventually learned. Gradual task progression is essential for effective training.
+- Sim-to-Real transfer is especially challenging due to a significant system delay of approximately 0.7 seconds. This delay, caused by coil mutual inductance, is nearly impossible to eliminate. By incorporating this delay into the simulation, the resulting policy became conservative.
+
 **My Contribution**
 
 - Responsible for independently designing and implementing the network workframe in simulation, as well as tuning parameters for optimal performance.
@@ -85,6 +93,12 @@
 <div align="center">
   <img src="./assests/bio1.gif" alt="bio1" width="750">
 </div>
+
+**Key Ideas**
+
+- Frequently changing the magnetic field causes the magnetic head to swing, enabling the entire body to move in a fish-like manner. Using PID control for its head angle to manage its motion has proven to be efficient.
+- Due to the difficulty in precisely modeling its motion, we are exploring model-based reinforcement learning (RL) to train an agent using real-world data.
+- Given its unique locomotion mechanism, the tasks it can perform are quite limited. We are actively seeking meaningful and impactful applications for it.
 
 **My Contribution**
 
@@ -130,6 +144,13 @@
 <div align="center">
   <img src="./assests/FTC3.gif" alt="FTC3" width="750">
 </div>
+
+**Key Ideas**
+
+- To successfully train a drone in simulation, adding some  direct information about fault to the observation significantly improves training performance.
+- To stabilize a faulty drone, it must perform a combined self-rotation (spin) and orbital rotation (revolution) to counteract the torque and force.
+- Compared to designing a traditional controller, reinforcement learning eliminates the need for modeling complex systems and operates with less control redundancy, making it a more efficient solution in such scenarios.
+- Sim-to-Real transfer is particularly challenging due to the system's high instability and the limitations of sensors with low accuracy and frequency.
 
 **My Contribution**
 
